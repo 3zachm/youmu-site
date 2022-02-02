@@ -8,6 +8,10 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
 	<link rel="manifest" href="../favicon/site.webmanifest">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script>
+	<?php
+        define('MATOMO_INCLUDED', true);
+        include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/matomo.php');
+    ?>
 </head>
 <body>
     <div class="bg--image"></div>
